@@ -1,0 +1,41 @@
+
+li {
+    background-color: black;
+    margin: 0 75px;
+}
+
+.nav-link {
+    padding: 25px 0;
+    width: 100%;
+    color: white;
+}
+
+.affix {
+    position: fixed;
+}
+
+.initialFont {
+    filter: invert(100%);
+    background-color: white;
+    height: 75px;
+}
+
+.imageItem {
+    background-color: black;
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+}

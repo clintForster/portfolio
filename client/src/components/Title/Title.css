@@ -1,0 +1,45 @@
+#container {
+    width: 100%;
+    margin: 0 auto;
+    background: black;
+    text-align: center;
+    align-content: center;
+}
+
+.nameFont {
+    padding: 10px;
+    padding-left: 30px;
+    margin: 0 auto;
+    transition: all 0.7s ease;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.gradient {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, #000, transparent 55%);
+    position: absolute;
+}
+
+/* .module-border-wrap {
+    padding: 1rem;
+    background: linear-gradient(to right, red, purple);
+    width: 30%;
+    padding: 3px;
+    padding-right: 2%;
+  }
+  
+  .module {
+    background: black;
+    color: white;
+    text-align: center;
+  } */
+
+  /* body {
+
+    place-items: center;
+    background: black;
+  } */
