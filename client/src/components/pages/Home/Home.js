@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Title from "../../Title/Title.js"
+import Title from "../../Title/Title.js";
+import Content from "../../Content/Content.js";
 import "./Home.css";
 
 class Home extends Component {
@@ -8,6 +9,7 @@ class Home extends Component {
         return (
             <div>
                 <Title/>
+                <Content/>
             </div>
         );
     }

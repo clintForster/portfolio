@@ -1,7 +1,7 @@
 
 li {
     background-color: black;
-    margin: 0 75px;
+    margin: 0 125px;
 }
 
 .nav-link {
@@ -10,8 +10,9 @@ li {
     color: white;
 }
 
-.affix {
+.fixed {
     position: fixed;
+    top: 0px;
 }
 
 .initialFont {

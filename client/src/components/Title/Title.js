@@ -19,16 +19,35 @@ class Title extends Component {
 
 
     render() {
+        let number = 200 - this.state.currentScrollHeight;
+        let percent = number + "%";
+        let style;
+        if (number >= 100) {
+            style = {
+                height: 100 + "%"
+            };
+        } else if (number < 200) {
+            style = {
+                height: 40 + "%"
+            };
+        } else {
+            style = {
+                height: percent
+            };
+        }
 
-        console.log(this.state.currentScrollHeight);
+        console.log(number);
+        
 
         return (
             <div id="container">
                 <a href="/"><img src={nameFont} alt="name" data-offset-top="30" className="nameFont"/></a>
+                <div className="fixedContainer">
                 <NavBar 
                 scrollValue={this.state.currentScrollHeight}
                 />
-                <div className={this.state.currentScrollHeight > 105 ? ("gradient affix") : ("gradient")}></div>
+                <div style={style} className={this.state.currentScrollHeight > 127 ? ("gradient affix") : ("gradient")}></div>
+            </div>
             </div>
         );
     }

@@ -5,7 +5,7 @@ import "./NavBar.css";
 
 function NavBar(props) {
     return (
-        <div className={props.scrollValue > 105 ? ("wrapper affix") : ("wrapper affix-top")}>
+        <div className={props.scrollValue > 127 ? ("wrapper fixed") : ("wrapper affix-top")}>
             <nav className="navbar navbar-expand-lg bg-transparent">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
