@@ -20,7 +20,7 @@ class Title extends Component {
     // Pushed pushing for more commits
 
     render() {
-        let number = 200 - (this.state.currentScrollHeight / 3);
+        let number = 200 - (this.state.currentScrollHeight / 2.5);
         let percent = number + "%";
         let style;
         if (number >= 100) {
@@ -37,8 +37,7 @@ class Title extends Component {
             };
         }
 
-        console.log(number);
-        
+    
 
         return (
             <div id="container">

@@ -4,6 +4,17 @@ import initialFont from "./initialFont.png";
 import "./NavBar.css";
 
 function NavBar(props) {
+
+    console.log(props.scrollValue);
+    const style = {
+        background: "black",
+        filter: "invert(0%)"
+    };
+    const transition = {
+        opacity: 1,
+        transition: "opacity .6s"
+    };
+
     return (
         <div className={props.scrollValue > 127 ? ("wrapper fixed") : ("wrapper affix-top")}>
             <nav className="navbar navbar-expand-lg bg-transparent">
@@ -18,9 +29,13 @@ function NavBar(props) {
                             PORTFOLIO
         </Link>
                     </li>
+                    {props.scrollValue <= 120 ? (
                     <li className="imageItem" >
-                        <img className="initialFont" src={initialFont} alt="initialFont"/>
+                        <img style={style} className="initialFont" src={initialFont} alt="initialFont"/>
                     </li>
+                    ) : (<li className="imageItem" >
+                        <img style={transition} className="initialFont" src={initialFont} alt="initialFont"/>
+                    </li>)}
                     <li>
                         <Link to="/skills" className={window.location.pathname === "/play" ? "nav-link active" : "nav-link"} >
                             SKILLS
