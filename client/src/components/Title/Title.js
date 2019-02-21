@@ -19,14 +19,14 @@ class Title extends Component {
 
 
     render() {
-        let number = 200 - this.state.currentScrollHeight;
+        let number = 200 - (this.state.currentScrollHeight / 3);
         let percent = number + "%";
         let style;
         if (number >= 100) {
             style = {
                 height: 100 + "%"
             };
-        } else if (number < 200) {
+        } else if (number < 40) {
             style = {
                 height: 40 + "%"
             };

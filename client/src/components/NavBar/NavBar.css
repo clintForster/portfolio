@@ -40,3 +40,10 @@ nav {
     text-align: center;
     background-color: black;
 }
+
+@media (max-width: 1500px) {
+    .navbar-nav {
+        display: block;
+
+    }
+}
