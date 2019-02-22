@@ -2,12 +2,20 @@
 li {
     background-color: black;
     margin: 0 125px;
+    color: white;
 }
 
-.nav-link {
-    padding: 25px 0;
+.nav-a {
+    position: relative;
     width: 100%;
     color: white;
+    top: 30px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-a:hover {
+    color: grey;
+    text-decoration: none;
 }
 
 .fixed {
@@ -19,6 +27,8 @@ li {
     filter: invert(100%);
     background-color: white;
     height: 75px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .imageItem {
