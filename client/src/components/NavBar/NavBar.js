@@ -15,8 +15,8 @@ function NavBar(props) {
             <nav className="navbar navbar-expand-lg bg-transparent">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                        <Link to="/about" className={window.location.pathname === "/play" ? "nav-a active" : "nav-a"} >
-                            ABOUT
+                        <Link to="/gallery" className={window.location.pathname === "/play" ? "nav-a active" : "nav-a"} >
+                            GALLERY
         </Link>
                     </li>
                     <li>

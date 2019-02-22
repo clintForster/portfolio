@@ -4,7 +4,7 @@
 }
 
 .contain {
-    height: 1000px;
+    height: 3000px;
 }
 
 .contentDiv {
@@ -12,12 +12,21 @@
     width: 25%;
     font-family: "Allegratta Personal Use Regular";
     font-size: 7em;
-    color: darkslategrey;
-    margin-left: 40%;
+    color: white;
+    margin-left: 13%;
     padding: 35% 3% 0 0;
 
 }
 
 .hello {
-    padding-bottom: 0px;
+    padding-bottom: 30px;
+}
+
+body {
+    background: black;
+}
+
+.image {
+    margin: 0 auto;
+    width: 30%;
 }
