@@ -7,14 +7,28 @@
 }
 
 .nameFont {
-    padding: 10px;
-    padding-left: 35px;
+    opacity: 1;
+    font-family: "Allegratta Personal Use Regular";
+    font-size: 4em;
+    color: white;
     margin: 0 auto;
+    padding-top: 20px;
     transition: all 0.7s ease;
-    transition-property: all;
-    transition-duration: 0.7s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s;
+    position: relative;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.nameFont:hover {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .gradient {
@@ -28,7 +42,7 @@
     height: 40%;
     width: 100%;
     background: linear-gradient(to bottom, #000, transparent 55%);
-    top: 93px;
+    top: 85px;
     position: fixed;
 }
 

@@ -11,7 +11,7 @@ function NavBar(props) {
     };
 
     return (
-        <div className={props.scrollValue > 127 ? ("wrapper fixed") : ("wrapper affix-top")}>
+        <div className={props.scrollValue > 90 ? ("wrapper fixed") : ("wrapper affix-top")}>
             <nav className="navbar navbar-expand-lg bg-transparent">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
@@ -24,7 +24,7 @@ function NavBar(props) {
                             PORTFOLIO
         </Link>
                     </li>
-                    {props.scrollValue <= 120 ? (
+                    {props.scrollValue <= 90 ? (
                     <li className="imageItem" >
                         <img style={style} className="initialFont" src={initialFont} alt="initialFont"/>
                     </li>

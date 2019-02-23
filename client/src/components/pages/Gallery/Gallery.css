@@ -1,5 +1,4 @@
 body {
-    padding: 30px 0;
     position: relative;
   }
   
@@ -11,7 +10,7 @@ body {
     overflow: hidden;
     position: relative;
   }
-  
+
   .img-c {
     width: 200px;
     height: 200px;

@@ -1,11 +1,22 @@
 import React, { Component } from "react";
 import Title from "../../Title/Title.js";
 import $ from "jquery";
+import img1 from "./images/img1.jpg";
+import img2 from "./images/img2.jpg";
+import img3 from "./images/img3.jpg";
+import img4 from "./images/img4.jpg";
+import img5 from "./images/img5.jpg";
+import img6 from "./images/img6.jpg";
+import img7 from "./images/img7.jpg";
+import img8 from "./images/img8.jpg";
+// import img9 from "./images/img9.jpg";
 import "./Gallery.css";
+
 
 class Gallery extends Component {
 
     componentDidMount() {
+
         $(function() {
   $(".img-w").each(function() {
     $(this).wrap("<div class='img-c'></div>")
@@ -53,15 +64,15 @@ $(document).on("click", ".img-c.active", function() {
             <div>
                 <Title />
                 <div className="gallery">
-                    <div className="img-w"><img src="" alt="img1" /></div>
-                    <div className="img-w"><img src="" alt="img2" /></div>
-                    <div className="img-w"><img src="" alt="img3" /></div>
-                    <div className="img-w"><img src="" alt="img4" /></div>
-                    <div className="img-w"><img src="" alt="img5" /></div>
-                    <div className="img-w"><img src="" alt="img6" /></div>
-                    <div className="img-w"><img src="" alt="img7" /></div>
-                    <div className="img-w"><img src="" alt="img8" /></div>
-                    <div className="img-w"><img src="" alt="img9" /></div>
+                    <div className="img-w"><img src={img1} alt="img1" /></div>
+                    <div className="img-w"><img src={img2} alt="img2" /></div>
+                    <div className="img-w"><img src={img3} alt="img3" /></div>
+                    <div className="img-w"><img src={img4} alt="img4" /></div>
+                    <div className="img-w"><img src={img5} alt="img5" /></div>
+                    <div className="img-w"><img src={img6} alt="img6" /></div>
+                    <div className="img-w"><img src={img7} alt="img7" /></div>
+                    <div className="img-w"><img src={img8} alt="img8" /></div>
+                    <div className="img-w"><img src={img8} alt="img9" /></div>
                 </div>
             </div>
         );

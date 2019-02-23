@@ -13,6 +13,10 @@ li {
     transition: color 0.3s ease-in-out;
 }
 
+.navbar {
+    padding-top: 0;
+}
+
 .nav-a:hover {
     color: grey;
     text-decoration: none;
@@ -29,6 +33,8 @@ li {
     height: 75px;
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
+    padding-top: 10px;
+    margin: 0 50px;
 }
 
 .imageItem {

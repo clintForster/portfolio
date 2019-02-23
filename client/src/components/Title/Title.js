@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import NavBar from "../NavBar/NavBar.js"
-import nameFont from "./images/nameFont.png";
 import "./Title.css";
 
 class Title extends Component {
@@ -41,12 +40,12 @@ class Title extends Component {
 
         return (
             <div id="container">
-                <a href="/"><img src={nameFont} alt="name" data-offset-top="30" className="nameFont"/></a>
+                <a href="/"><h1 className="nameFont">Clint Forster</h1></a>
                 <div className="fixedContainer">
                 <NavBar 
                 scrollValue={this.state.currentScrollHeight}
                 />
-                <div style={style} className={this.state.currentScrollHeight > 127 ? ("gradient affix") : ("gradient")}></div>
+                <div style={style} className={this.state.currentScrollHeight > 90 ? ("gradient affix") : ("gradient")}></div>
             </div>
             </div>
         );

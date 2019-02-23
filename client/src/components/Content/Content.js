@@ -11,8 +11,8 @@ function Content() {
             </div>
             <div className="imageDiv" >
                 <img className="image" src={profilePic} alt="profilePic" />
-        </div>
-       
+                <div className="blurredEdges"></div>
+            </div>
         </div >
     );
 }
