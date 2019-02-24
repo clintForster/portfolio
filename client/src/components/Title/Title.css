@@ -32,16 +32,13 @@ a:hover {
 }
 
 .gradient {
-    height: 100%;
+    background-image: linear-gradient(to bottom, black, transparent);
+    height: 40%;
     width: 100%;
-    background: linear-gradient(to bottom, #000, transparent 55%);
     position: absolute;
 }
 
 .affix {
-    height: 40%;
-    width: 100%;
-    background: linear-gradient(to bottom, #000, transparent 55%);
     top: 85px;
     position: fixed;
 }

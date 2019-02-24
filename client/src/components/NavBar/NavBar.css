@@ -5,10 +5,14 @@ li {
     color: white;
 }
 
+/* .active {
+    color: grey;
+} */
+
 .nav-a {
     position: relative;
     width: 100%;
-    color: white;
+    color: white !important;
     top: 30px;
     transition: color 0.3s ease-in-out;
 }
@@ -32,13 +36,13 @@ li {
     background-color: white;
     height: 75px;
     opacity: 1;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
     padding-top: 10px;
     margin: 0 50px;
 }
 
 .imageItem {
-    background-color: black;
+    opacity: 1;
     margin: 0;
 }
 

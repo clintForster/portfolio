@@ -11,33 +11,33 @@ function NavBar(props) {
     };
 
     return (
-        <div className={props.scrollValue > 90 ? ("wrapper fixed") : ("wrapper affix-top")}>
+        <div className={props.scrollValue > 80 ? ("wrapper fixed") : ("wrapper")}>
             <nav className="navbar navbar-expand-lg bg-transparent">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                        <Link to="/gallery" className={window.location.pathname === "/play" ? "nav-a active" : "nav-a"} >
+                        <Link to="/gallery" className="nav-a text-white" >
                             GALLERY
         </Link>
                     </li>
                     <li>
-                        <Link to="/portfolio" className={window.location.pathname === "/play" ? "nav-a active" : "nav-a"} >
+                        <Link to="/portfolio" className="nav-a text-white" >
                             PORTFOLIO
         </Link>
                     </li>
-                    {props.scrollValue <= 90 ? (
-                    <li className="imageItem" >
+                    {props.scrollValue <= 80 ? (
+                    <li style={style} className="imageItem" >
                         <img style={style} className="initialFont" src={initialFont} alt="initialFont"/>
                     </li>
                     ) : (<li className="imageItem" >
                         <img className="initialFont" src={initialFont} alt="initialFont"/>
                     </li>)}
                     <li>
-                        <Link to="/skills" className={window.location.pathname === "/play" ? "nav-a active" : "nav-a"} >
+                        <Link to="/skills" className="nav-a text-white" >
                             SKILLS
         </Link>
                     </li>
                     <li>
-                        <Link to="/contact" className={window.location.pathname === "/play" ? "nav-a active" : "nav-a"} >
+                        <Link to="/contact" className="nav-a text-white" >
                             CONTACT
         </Link>
                     </li>
