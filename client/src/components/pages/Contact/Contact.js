@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import Title from "../../Title/Title.js";
 import {
-    AwesomeButtonProgress,
+    AwesomeButton,
     AwesomeButtonSocial,
   } from 'react-awesome-button';
-import styles from 'react-awesome-button/src/styles/themes/theme-blue';
 import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
 import "./Contact.css";
 
@@ -25,25 +24,20 @@ class Contact extends Component {
                                     ripple="true"
                                     cssModule={AwesomeButtonStyles}
                                     type="linkedin"
-                                    url="https://www.linkedin.com/in/clint-forster"
+                                    href="https://www.linkedin.com/in/clint-forster"
                                 >Linkedin</AwesomeButtonSocial>
                             </div>
                         </div>
                         <div className="col-md module-border-wrap">
                             <div className="module">
                                 <p>Take a copy of my résumé!</p>
-
-                                <AwesomeButtonProgress
+                                <AwesomeButton
                                     size="medium"
                                     type="primary"
                                     ripple="true"
+                                    download=""
                                     cssModule={AwesomeButtonStyles}
-                                    action={(element, next) => {
-                                        setTimeout(() => {
-                                            next();
-                                        }, 600);
-                                    }}
-                                >Résumé</AwesomeButtonProgress>
+                                >Resume</AwesomeButton>
                             </div>
                         </div>
                     </div>
@@ -57,8 +51,7 @@ class Contact extends Component {
                                     ripple="true"
                                     cssModule={AwesomeButtonStyles}
                                     type="instagram"
-                                    href=""
-                                    loadingLabel="hold on"
+                                    href="https://www.instagram.com/clintforster/"
                                 >Instagram</AwesomeButtonSocial>
                             </div>
                         </div>
