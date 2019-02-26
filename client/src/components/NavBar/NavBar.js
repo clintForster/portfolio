@@ -4,8 +4,7 @@ import initialFont from "./initialFont.png";
 import "./NavBar.css";
 
 function NavBar(props) {
-
-    console.log(props.scrollValue);
+    
     const style = {
         opacity: 0
     };

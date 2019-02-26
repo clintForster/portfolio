@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Allegratta Personal Use Regular";
+    src: url("./Allegratta_Personal_Use.ttf");
+}
+
+.contain {
+    height: 3000px;
+    width: 100%;
+}
+
+.contentDiv {
+    height: 10%;
+    width: 25%;
+    font-family: "Allegratta Personal Use Regular";
+    font-size: 7em;
+    color: white;
+    margin-left: 13%;
+    padding: 10% 3% 0 0;
+
+}
+
+.imageDiv {
+    margin-top: 1px;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.image {
+    width: 100%;
+    z-index: -1;
+}
