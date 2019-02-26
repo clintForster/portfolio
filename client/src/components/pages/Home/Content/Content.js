@@ -11,7 +11,7 @@ function Content(props) {
     return (
         <div className="contain" >
             <div className="imageDiv" >
-            {props.scrollValue < 95 ? (
+            {props.scrollValue < 80 ? (
                 <img className="image" src={image1} alt="introImage" />
             ) : (
                 <img className="image" style={style} src={image1} alt="introImage" />

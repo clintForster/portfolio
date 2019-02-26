@@ -10,20 +10,15 @@ function NavBar(props) {
     };
 
     return (
-        <div className={props.scrollValue > 95 ? ("wrapper fixed") : ("wrapper")}>
+        <div className={props.scrollValue > 80 ? ("wrapper fixed") : ("wrapper")}>
             <nav className="navbar navbar-expand-lg bg-transparent">
                 <ul className="navbar-nav ml-auto">
-                    <li className="nav-item">
-                        <Link to="/gallery" className="nav-a text-white" >
-                            GALLERY
-        </Link>
-                    </li>
                     <li>
-                        <Link to="/portfolio" className="nav-a text-white" >
+                        <Link to="/portfolio" className="nav-a text-secondary" >
                             PORTFOLIO
         </Link>
                     </li>
-                    {props.scrollValue <= 95 ? (
+                    {props.scrollValue <= 80 ? (
                     <li style={style} className="imageItem" >
                         <img style={style} className="initialFont" src={initialFont} alt="initialFont"/>
                     </li>
@@ -31,12 +26,7 @@ function NavBar(props) {
                         <img className="initialFont" src={initialFont} alt="initialFont"/>
                     </li>)}
                     <li>
-                        <Link to="/skills" className="nav-a text-white" >
-                            SKILLS
-        </Link>
-                    </li>
-                    <li>
-                        <Link to="/contact" className="nav-a text-white" >
+                        <Link to="/contact" className="nav-a text-secondary" >
                             CONTACT
         </Link>
                     </li>

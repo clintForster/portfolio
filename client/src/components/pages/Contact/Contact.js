@@ -9,11 +9,25 @@ import "./Contact.css";
 
 class Contact extends Component {
 
+    state = {
+        currentScrollHeight: 0
+    }
+
+    componentDidMount() {
+        window.onscroll = () => {
+            this.setState({
+                currentScrollHeight: window.scrollY
+            });
+        }
+    }
+
     render() {
         return (
             <div>
-                <Title />
-                <div className="contianer pad">
+                <Title 
+                scrollValue={this.state.currentScrollHeight}
+                />
+                <div className={this.state.currentScrollHeight < 80 ? ("container pad") : ("container pad margin")}>
                     <div className="row">
                         <div className="col-md module-border-wrap">
                             <div className="module">
@@ -35,7 +49,6 @@ class Contact extends Component {
                                     size="medium"
                                     type="primary"
                                     ripple="true"
-                                    href="./Resume.pdf"
                                     download="Resume.pdf"
                                     cssModule={AwesomeButtonStyles}
                                 >Resume</AwesomeButton>

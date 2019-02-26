@@ -4,10 +4,6 @@ import "./Title.css";
 
 function Title(props) {
 
-    if (props.scrollValue > 1 ) {
-
-    }
-
         return (
             <div id="container">
                 <a href="/" className="text-white" ><h1 className="nameFont">Clint Forster</h1></a>
@@ -15,7 +11,7 @@ function Title(props) {
                 <NavBar 
                 scrollValue={props.scrollValue}
                 />
-                <div className={props.scrollValue > 95 ? ("affix") : ("gradient")}></div>
+                <div className={props.scrollValue > 80 ? ("affix") : ("gradient")}></div>
             </div>
             </div>
         );

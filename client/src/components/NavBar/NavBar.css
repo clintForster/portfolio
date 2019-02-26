@@ -1,13 +1,9 @@
 
 li {
     background-color: black;
-    margin: 0 125px;
+    margin: 0px 275px;
     color: white;
 }
-
-/* .active {
-    color: grey;
-} */
 
 .nav-a {
     position: relative;
