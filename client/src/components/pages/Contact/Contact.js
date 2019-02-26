@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import Title from "../../Title/Title.js";
-import { AwesomeButtonSocial } from "react-awesome-button";
-import { AwesomeButtonProgress } from "react-awesome-button";
+import {
+    AwesomeButtonProgress,
+    AwesomeButtonSocial,
+  } from 'react-awesome-button';
+import styles from 'react-awesome-button/src/styles/themes/theme-blue';
 import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
 import "./Contact.css";
 
@@ -19,8 +22,6 @@ class Contact extends Component {
                                 <AwesomeButtonSocial
                                     size="medium"
                                     type="primary"
-                                    disabled="false"
-                                    fakePress="false"
                                     ripple="true"
                                     cssModule={AwesomeButtonStyles}
                                     type="linkedin"
@@ -35,8 +36,6 @@ class Contact extends Component {
                                 <AwesomeButtonProgress
                                     size="medium"
                                     type="primary"
-                                    disabled="false"
-                                    fakePress="false"
                                     ripple="true"
                                     cssModule={AwesomeButtonStyles}
                                     action={(element, next) => {
@@ -55,12 +54,10 @@ class Contact extends Component {
                                 <AwesomeButtonSocial
                                     size="medium"
                                     type="primary"
-                                    disabled="false"
-                                    fakePress="false"
                                     ripple="true"
                                     cssModule={AwesomeButtonStyles}
                                     type="instagram"
-                                    url="https://www.instagram.com/clintforster/"
+                                    href=""
                                     loadingLabel="hold on"
                                 >Instagram</AwesomeButtonSocial>
                             </div>
