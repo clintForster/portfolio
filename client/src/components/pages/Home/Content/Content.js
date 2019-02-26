@@ -12,12 +12,12 @@ function Content(props) {
     return (
         <div className="contain" >
             <div className="imageDiv" >
-            {props.scrollValue < 80 ? (
+            {props.scrollValue < 95 ? (
                 <img className="image" src={image1} alt="introImage" />
             ) : (
                 <img className="image" style={style} src={image1} alt="introImage" />
             )}
-                <div className="blurredEdges"></div>
+                <div className="lowerGradient"></div>
             </div>
         </div >
     );

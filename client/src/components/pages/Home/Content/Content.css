@@ -25,6 +25,13 @@
     z-index: -1;
 }
 
+.lowerGradient {
+    height: 400px;
+    width: 100%;
+    box-shadow: inset 0px -200px 300px -50px black;
+    position: relative;
+    bottom: 400px;
+}
 
 .image {
     width: 100%;

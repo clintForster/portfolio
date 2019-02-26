@@ -15,7 +15,7 @@ function Title(props) {
                 <NavBar 
                 scrollValue={props.scrollValue}
                 />
-                <div className={props.scrollValue > 80 ? ("affix") : ("gradient")}></div>
+                <div className={props.scrollValue > 95 ? ("affix") : ("gradient")}></div>
             </div>
             </div>
         );

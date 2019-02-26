@@ -34,14 +34,15 @@ a:hover {
 
 .gradient {
     background-image: linear-gradient(to bottom, black, transparent);
-    height: 17% !important;
+    height: 5% !important;
     width: 100%;
     position: absolute;
+    
 }
 
 .affix {
     background-image: linear-gradient(to bottom, black, transparent);
-    height: 40%;
+    height: 28%;
     width: 100%;
     top: 85px;
     position: fixed;
