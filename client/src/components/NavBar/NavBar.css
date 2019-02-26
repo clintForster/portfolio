@@ -59,6 +59,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     background-color: black;
+    z-index: 10;
 }
 
 @media (max-width: 1500px) {
