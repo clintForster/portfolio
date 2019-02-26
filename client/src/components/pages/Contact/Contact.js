@@ -35,7 +35,8 @@ class Contact extends Component {
                                     size="medium"
                                     type="primary"
                                     ripple="true"
-                                    download=""
+                                    href="./Resume.pdf"
+                                    download="Resume.pdf"
                                     cssModule={AwesomeButtonStyles}
                                 >Resume</AwesomeButton>
                             </div>

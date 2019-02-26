@@ -1,7 +1,6 @@
 import React from "react";
 import image1 from "./image1.jpg";
 import "./Content.css";
-import { relative } from "path";
 
 function Content(props) {
 
