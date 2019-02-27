@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Title from "../../Title/Title.js";
+import { AwesomeButtonSocial } from "react-awesome-button";
+import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
 import "./Portfolio.css";
 
 class Portfolio extends Component {
@@ -23,8 +25,22 @@ class Portfolio extends Component {
                     scrollValue={this.state.currentScrollHeight}
                 />
                 <div className="row">
-                    <div className="buttonDiv">
-
+                    <div className="portButtonDiv">
+                        <div className="portModule-border-wrap1">
+                            <div className="portModule">
+                                <p id="buttonP">
+                                   Visit our Github repository to see how me and my team created CodeRacer.
+                        </p>
+                                <div className="portButton">
+                                    <AwesomeButtonSocial
+                                        type="github"
+                                        cssModule={AwesomeButtonStyles}
+                                        ripple="true"
+                                        href="https://github.com/c811k/code-racer"
+                                    >Github</AwesomeButtonSocial>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="row">
