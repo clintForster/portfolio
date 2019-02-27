@@ -31,11 +31,6 @@
     border-radius: 1%;
   }
 
-  .buttonDiv {
-    position: relative;
-    top: 235px;
-  }
-
   .module-border-wrap2 {
     padding: 1rem;
     background: linear-gradient(to top left, rgb(255, 98, 77),rgb(80, 255, 132));
@@ -55,6 +50,11 @@
     background: linear-gradient(to bottom left, rgb(255, 104, 247), rgb(80, 255, 132));
     padding: 3px;
     border-radius: 1%;
+  }
+
+  .buttonDiv {
+    position: relative;
+    top: 235px;
   }
   
   .module {
