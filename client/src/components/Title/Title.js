@@ -1,18 +1,17 @@
 import React from "react";
-import NavBar from "../NavBar/NavBar.js"
+import NavBar from "../NavBar/NavBar.js";
 import "./Title.css";
 
 function Title(props) {
 
         return (
-            <div id="container">
-                <a href="/" className="text-white" ><h1 className="nameFont">Clint Forster</h1></a>
-                <div className="fixedContainer">
+            <div className={props.scrollValue > 80 ? ("wrap fixed") : ("wrap")}>
+                <a href="/" className="text-white" ><h1 className={props.scrollValue > 80 ? ("unFixed nameFont") : ("nameFont onLoad")}>Clint Forster</h1></a>
                 <NavBar 
                 scrollValue={props.scrollValue}
                 />
-                <div className={props.scrollValue > 80 ? ("affix") : ("gradient")}></div>
-            </div>
+                <div className="titleShadow"></div>
+
             </div>
         );
 }

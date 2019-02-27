@@ -5,7 +5,7 @@ import "./Content.css";
 function Content(props) {
 
     let style = {
-        margin: "90px 0px 0px 0px",
+        margin: "157px 0px 0px 0px",
     };
 
     return (

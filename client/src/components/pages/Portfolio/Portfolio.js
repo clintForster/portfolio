@@ -18,7 +18,7 @@ class Portfolio extends Component {
 
     render() {
         return (
-            <div className="portContainer">
+            <div className={this.state.currentScrollHeight > 80 ? ("portContainer portMargin") : ("portContainer")}>
                 <Title
                     scrollValue={this.state.currentScrollHeight}
                 />

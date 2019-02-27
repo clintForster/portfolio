@@ -5,6 +5,10 @@
     text-align: center;
 }
 
+.portMargin {
+    margin-top: 85px;
+}
+
 .buttonDiv {
     background-color: white;
     width: 15%;
@@ -24,4 +28,5 @@
 
 .portContainer {
     background-color: rgb(29, 29, 29);
+    /* background-color: white; */
 }
