@@ -18,16 +18,18 @@ class Portfolio extends Component {
 
     render() {
         return (
-            <div>
+            <div className="portContainer">
                 <Title
                     scrollValue={this.state.currentScrollHeight}
                 />
                 <div className="row">
-                    <div className="col-md large">
-                        
+                    <div className="buttonDiv">
+
                     </div>
-                    <div className="col-md small">
-                        
+                </div>
+                <div className="row">
+                    <div className="gifDiv">
+
                     </div>
                 </div>
             </div>
