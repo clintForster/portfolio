@@ -6,14 +6,17 @@
 
 .row {
     margin: 0px;
+    width: 100%
 }
 
 .small {
+    width: 40%;
     padding: 0 auto;
     margin: 0 auto;
 }
 
 .large {
+    width: 40%;
     padding: 0px;
     margin: 0px;
 }
