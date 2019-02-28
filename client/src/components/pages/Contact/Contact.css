@@ -55,6 +55,11 @@
   .buttonDiv {
     position: relative;
     top: 235px;
+    transition: all 0.7 ease-in-out;
+  }
+
+  .aws-btn:hover {
+    opacity: 0.5;
   }
   
   .module {

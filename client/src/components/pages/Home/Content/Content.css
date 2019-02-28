@@ -4,8 +4,9 @@
 }
 
 .contain {
-    height: 3000px;
+    height: 1000px;
     width: 100%;
+    perspective: 2px;
 }
 
 .contentDiv {
@@ -19,7 +20,24 @@
 
 }
 
+/* .parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(1.5);
+    background-size: 100%;
+    z-index: -1;
+} */
+
+/* .bg1::after {
+    background-image: url("./image1.jpg");
+} */
+
 .imageDiv {
+    position: relative;
     margin-top: 1px;
     width: 100%;
     z-index: -1;

@@ -10,7 +10,7 @@ function Content(props) {
 
     return (
         <div className="contain" >
-            <div className="imageDiv" >
+            <div className="imageDiv parallax bg1" >
             {props.scrollValue < 80 ? (
                 <img className="image" src={image1} alt="introImage" />
             ) : (
