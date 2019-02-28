@@ -7,8 +7,8 @@
 
 .pad {
     padding: 0 20px;
-    padding-top: 75px;
-    height: 2000px;
+    padding-top: 135px;
+    height: 700px;
 }
 
 .holder {
@@ -16,7 +16,7 @@
 }
 
 .container {
-  width:100%;
+  width: 100%;
   margin: 0 auto;
 }
 
