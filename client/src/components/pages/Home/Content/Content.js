@@ -3,21 +3,18 @@ import image1 from "./image1.jpg";
 import "./Content.css";
 
 function Content(props) {
-
-    let style = {
-        margin: "157px 0px 0px 0px",
-    };
-
+console.log(props.scrollValue);
     return (
-        <div className="contain" >
+        <div className={props.scrollValue < 80 ? ("contain") : ("contain containMargin")} >
             <div className="imageDiv parallax bg1" >
-            {props.scrollValue < 80 ? (
                 <img className="image" src={image1} alt="introImage" />
-            ) : (
-                <img className="image" style={style} src={image1} alt="introImage" />
-            )}
+                <div className="imageP">
+                <p id={props.scrollValue > 80 && props.scrollValue < 250 ? ("NYA") : ("noNYA")} className="pTag text-white">Not your average</p>
+                <p id={props.scrollValue > 80 && props.scrollValue < 250 ? ("FSD") : ("noFSD")} className="pTag text-white">Full Stack Developer</p>
+                </div>
                 <div className="lowerGradient"></div>
             </div>
+            <h2>About Me</h2>
         </div >
     );
 }

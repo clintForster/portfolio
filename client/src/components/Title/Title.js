@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar.js";
+import profilePic from "../pages/Home/Content/profilePic.PNG";
 import "./Title.css";
 
 function Title(props) {
@@ -11,6 +12,13 @@ function Title(props) {
                 scrollValue={props.scrollValue}
                 />
                 <div className="titleShadow"></div>
+                <div className="profilePicDiv">
+                    <div className="titleModule-border-wrap3">
+                        <div className="titleModule">
+                            <img className="titleProfilePic" src={profilePic} alt="profilePic"/>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         );

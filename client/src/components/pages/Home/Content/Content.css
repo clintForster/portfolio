@@ -4,9 +4,23 @@
 }
 
 .contain {
-    height: 1000px;
     width: 100%;
     perspective: 2px;
+}
+
+.containMargin {
+    margin: 157px 0px 0px 0px;
+}
+
+h2 {
+    position: relative;
+    bottom: 480px;
+    font-size: 4em;
+    font-family: "Allegratta Personal Use Regular";
+    color: white;
+    width: 100%;
+    padding-right: 60px;
+    margin: 0 auto;
 }
 
 .contentDiv {
@@ -48,10 +62,59 @@
     width: 100%;
     box-shadow: inset 0px -200px 300px -50px black;
     position: relative;
-    bottom: 400px;
+    bottom: 500px;
 }
 
 .image {
     width: 100%;
     z-index: -1;
+    background-color: white;
+}
+
+#NYA {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.7s ease-in-out;
+    transform: translate(0px, 25px);
+}
+
+#FSD {
+    opacity: 1;
+    visibility: visible;
+    transition: all 1.4s ease-in-out;
+    transform: translate(0px, 25px);
+}
+
+#noNYA {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1.4s ease-in-out;
+}
+
+#noFSD {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.7s ease-in-out;
+}
+
+.pTag {
+    visibility: hidden;
+    opacity: 0;
+    height: 100%;
+    color: black;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 7rem;
+    z-index: 10;
+}
+
+.imageP {
+    font-family: "Allegratta Personal Use Regular";
+    font-size: 5em;
+    color: white;
+    width: 50%;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+    bottom: 575px
 }
