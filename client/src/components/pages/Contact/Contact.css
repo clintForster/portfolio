@@ -32,6 +32,7 @@
     padding: 5px;
     border-radius: 1%;
     width: 75%;
+    box-shadow: 0 10px 30px -6px black;
   }
 
   .module-border-wrap2 {
@@ -42,6 +43,7 @@
     padding: 5px;
     border-radius: 1%;
     width: 75%;
+    box-shadow: 0 10px 30px -6px black;
   }
 
   .module-border-wrap3 {
@@ -52,6 +54,7 @@
     padding: 5px;
     border-radius: 1%;
     width: 75%;
+    box-shadow: 0 10px 30px -6px black;
   }
 
   .module-border-wrap4 {
@@ -62,10 +65,13 @@
     padding: 5px;
     border-radius: 1%;
     width: 75%;
+    box-shadow: 0 10px 30px -6px black;
   }
 
   .rowDiv {
     background-color: rgb(58, 58, 58);
+    border-radius: 1%;
+    box-shadow: 0 20px 30px -6px black;
   }
 
   .buttonDiv {
