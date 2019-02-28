@@ -21,6 +21,7 @@ class Home extends Component {
 
         return (
             <div className="homeDiv">
+            <div></div>
                 <Title
                 scrollValue={this.state.currentScrollHeight}
                 />
