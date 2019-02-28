@@ -1,6 +1,6 @@
 
 .row {
-    height: 500px;
+    height: 400px;
     margin: 0px;
     text-align: center;
     z-index: 0;
@@ -21,6 +21,7 @@
 .portContainer {
     background-color: rgb(37, 37, 37);
     z-index: -10;
+    height: 1500px;
     /* background-color: white; */
 }
 
@@ -41,7 +42,7 @@
     padding: 20px;
     text-align: center;
     position: relative;
-    top: 200px;
+    top: 100px;
     margin: 0 auto;
     background-color: rgb(58, 58, 58);
     border-radius: 1%;
@@ -52,17 +53,36 @@
     width: 60%;
     margin: 0 auto;
     background-color: rgb(58, 58, 58);
+    height: 700px;
+    border-radius: 1%;
+    padding: 20px;
+    box-shadow: 0 20px 30px -6px black;
 }
 
 .portModule {
     height: 100%;
-    background: rgb(41, 41, 41);
+    width: 100%;
     color: white;
     text-align: center;
     padding-top: 40px;
     border-radius: 1%;
     background-color: rgb(58, 58, 58);
   }
+
+  .portGifModule {
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-radius: 1%;
+    background-color: rgb(58, 58, 58);
+  }
+
+.gif {
+    height: 100%;
+    width: 100%;
+    border-radius: 1%;
+}
 
   .portModule-border-wrap1 {
     height: 100%;
@@ -73,22 +93,23 @@
   }
 
   .portModule-border-wrap2 {
+    height: 100%;
     padding: 1rem;
     background: linear-gradient(to top left, rgb(255, 98, 77),rgb(80, 255, 132));
-    padding: 3px;
+    padding: 5px;
     border-radius: 1%;
   }
 
   .portModule-border-wrap3 {
     padding: 1rem;
     background: linear-gradient(to top right , rgb(109, 109, 255), rgb(255, 98, 77));
-    padding: 3px;
+    padding: 5px;
     border-radius: 1%;
   }
 
   .portModule-border-wrap4 {
     padding: 1rem;
     background: linear-gradient(to bottom left, rgb(255, 104, 247), rgb(80, 255, 132));
-    padding: 3px;
+    padding: 5px;
     border-radius: 1%;
   }

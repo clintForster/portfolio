@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Title from "../../Title/Title.js";
 import { AwesomeButtonSocial } from "react-awesome-button";
+import codeRacerGif from "./codeRacerGif.gif";
 import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
 import "./Portfolio.css";
 
@@ -45,7 +46,11 @@ class Portfolio extends Component {
                 </div>
                 <div className="row">
                     <div className="gifDiv">
-
+                        <div className="portModule-border-wrap2">
+                            <div className="portGifModule">
+                                <img className="gif" src={codeRacerGif} alt="codeRacerGif"/>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
