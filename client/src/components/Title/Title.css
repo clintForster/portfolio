@@ -58,7 +58,7 @@ a:hover {
 .titleModule {
   height: 100%;
   text-align: center;
-  border-radius: 1%;
+  border-radius: 2%;
 }
 
 .titleProfilePic {
@@ -81,7 +81,7 @@ a:hover {
 .titleModule-border-wrap3 {
   background: linear-gradient(to top right , rgb(109, 109, 255), rgb(255, 98, 77));
   padding: 6px;
-  border-radius: 1%;
+  border-radius: 2%;
   box-shadow: 0 10px 30px -6px black;
   margin: 0 auto;
   width: 25%;

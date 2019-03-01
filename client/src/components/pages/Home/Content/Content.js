@@ -9,8 +9,8 @@ console.log(props.scrollValue);
             <div className="imageDiv parallax bg1" >
                 <img className="image" src={image1} alt="introImage" />
                 <div className="imageP">
-                <p id={props.scrollValue > 80 && props.scrollValue < 250 ? ("NYA") : ("noNYA")} className="pTag text-white">Not your average</p>
-                <p id={props.scrollValue > 80 && props.scrollValue < 250 ? ("FSD") : ("noFSD")} className="pTag text-white">Full Stack Developer</p>
+                <p id={props.scrollValue > 80 && props.scrollValue < 350 ? ("NYA") : ("noNYA")} className="pTag text-white">Not your average</p>
+                <p id={props.scrollValue > 80 && props.scrollValue < 350 ? ("FSD") : ("noFSD")} className="pTag text-white">Full Stack Developer</p>
                 </div>
                 <div className="lowerGradient"></div>
             </div>
