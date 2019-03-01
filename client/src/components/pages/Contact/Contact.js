@@ -27,26 +27,26 @@ class Contact extends Component {
                 <Title
                     scrollValue={this.state.currentScrollHeight}
                 />
-                <div className={this.state.currentScrollHeight < 80 ? ("container pad") : ("container pad margin")}>
-                    <div className="row rowDiv">
-                        
-                            <div className="col-md module-border-wrap1">
-                                <div className="module">
-                                    {/* <p>Follow Me on Linkedin!</p> */}
-                                    <div className="buttonDiv">
-                                        <AwesomeButtonSocial
-                                            size="medium"
-                                            type="primary"
-                                            ripple="true"
-                                            cssModule={AwesomeButtonStyles}
-                                            type="linkedin"
-                                            href="https://www.linkedin.com/in/clint-forster"
-                                        >Linkedin</AwesomeButtonSocial>
-                                    </div>
+                <div className={this.state.currentScrollHeight < 80 ? ("container pad") : ("container pad")}>
+                    <div className="row">
+
+                        <div className="col-md module-border-wrap1">
+                            <div className="module">
+                                {/* <p>Follow Me on Linkedin!</p> */}
+                                <div className="buttonDiv">
+                                    <AwesomeButtonSocial
+                                        size="medium"
+                                        type="primary"
+                                        ripple="true"
+                                        cssModule={AwesomeButtonStyles}
+                                        type="linkedin"
+                                        href="https://www.linkedin.com/in/clint-forster"
+                                    >Linkedin</AwesomeButtonSocial>
                                 </div>
                             </div>
-                        
-                        
+                        </div>
+
+
                         <div className="col-md module-border-wrap2">
                             <div className="module">
                                 {/* <p>Take a copy of my résumé!</p> */}
@@ -61,9 +61,9 @@ class Contact extends Component {
                                 </div>
                             </div>
                         </div>
-                    
 
-                        
+
+
                         <div className="col-md module-border-wrap3">
                             <div className="module">
                                 {/* <p>Checkout my photography on Instagram!</p> */}
@@ -79,7 +79,7 @@ class Contact extends Component {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-md module-border-wrap4">
                             <div className="module">
                                 {/* <p>Feel free to email me with any comments and questions!</p> */}

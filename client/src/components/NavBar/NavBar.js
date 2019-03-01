@@ -5,35 +5,36 @@ import "./NavBar.css";
 
 function NavBar(props) {
 
-    const style = {
-        opacity: 0
-    };
+    // const style = {
+    //     opacity: 0
+    // };
 
     return (
         <div className="wrapper">
-            <nav className="navbar navbar-expand-lg bg-transparent">
-                <ul className="navbar-nav ml-auto">
-                    <li>
-                        <Link to="/portfolio" className="nav-a text-secondary" >
-                            PORTFOLIO
+            <div className="navbarModule-border-wrap3"></div>
+                <nav className="navbar navbar-expand-lg bg-transparent">
+                    <ul className="navbar-nav ml-auto">
+                        <li>
+                            <Link to="/portfolio" className="nav-a text-secondary" >
+                                PORTFOLIO
         </Link>
-                    </li>
-                    <li>
-                        <div className={props.scrollValue > 80 ? ("profilePicDiv hide") : ("profilePicDiv")}>
-                            <div className="titleModule-border-wrap3">
-                                <div className="titleModule">
-                                    <img className="titleProfilePic" src={profilePic} alt="profilePic" />
+                        </li>
+                        <li>
+                            <div className="profilePicDiv">
+                                <div className="titleModule-border-wrap3">
+                                    <div className="titleModule">
+                                        <img className="titleProfilePic" src={profilePic} alt="profilePic" />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </li>
-                    <li>
-                        <Link to="/contact" className="nav-a text-secondary" >
-                            CONTACT
+                        </li>
+                        <li>
+                            <Link to="/contact" className="nav-a text-secondary" >
+                                CONTACT
         </Link>
-                    </li>
-                </ul>
-            </nav>
+                        </li>
+                    </ul>
+                </nav>
         </div>
     );
 }

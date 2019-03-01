@@ -5,7 +5,7 @@ import "./Content.css";
 function Content(props) {
 console.log(props.scrollValue);
     return (
-        <div className={props.scrollValue < 80 ? ("contain") : ("contain containMargin")} >
+        <div className={props.scrollValue < 80 ? ("contain") : ("contain")} >
             <div className="imageDiv parallax bg1" >
                 <img className="image" src={image1} alt="introImage" />
                 <div className="imageP">

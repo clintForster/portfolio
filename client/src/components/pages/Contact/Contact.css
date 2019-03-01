@@ -1,8 +1,8 @@
 .col-md {
     height: 300px;
     background-color: white;
-    margin: 20px 50px;
     padding: 40px;
+    width: 15%;
 }
 
 .pad {
@@ -31,7 +31,6 @@
     background: linear-gradient(to bottom right, rgb(109, 109, 255), rgb(253, 255, 106));
     padding: 5px;
     border-radius: 1%;
-    width: 75%;
     box-shadow: 0 10px 30px -6px black;
   }
 
@@ -42,7 +41,6 @@
     background: linear-gradient(to top left, rgb(255, 98, 77),rgb(80, 255, 132));
     padding: 5px;
     border-radius: 1%;
-    width: 75%;
     box-shadow: 0 10px 30px -6px black;
   }
 
@@ -53,7 +51,6 @@
     background: linear-gradient(to top right , rgb(109, 109, 255), rgb(255, 98, 77));
     padding: 5px;
     border-radius: 1%;
-    width: 75%;
     box-shadow: 0 10px 30px -6px black;
   }
 
@@ -64,7 +61,6 @@
     background: linear-gradient(to bottom left, rgb(255, 104, 247), rgb(80, 255, 132));
     padding: 5px;
     border-radius: 1%;
-    width: 75%;
     box-shadow: 0 10px 30px -6px black;
   }
 
