@@ -11,14 +11,7 @@ function Title(props) {
                 <NavBar 
                 scrollValue={props.scrollValue}
                 />
-                <div className="titleShadow"></div>
-                <div className="profilePicDiv">
-                    <div className="titleModule-border-wrap3">
-                        <div className="titleModule">
-                            <img className="titleProfilePic" src={profilePic} alt="profilePic"/>
-                        </div>
-                    </div>
-                </div>
+                {/* <div className="titleShadow"></div> */}
 
             </div>
         );
