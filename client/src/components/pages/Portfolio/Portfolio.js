@@ -25,7 +25,7 @@ class Portfolio extends Component {
                 <Title
                     scrollValue={this.state.currentScrollHeight}
                 />
-                <div className="row">
+                <div className="row topRow">
                     <div className="portButtonDiv">
                         <div className="portModule-border-wrap1">
                             <div className="portModule">
